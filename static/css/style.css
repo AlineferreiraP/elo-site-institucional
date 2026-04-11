@@ -1,0 +1,346 @@
+html, body {
+    height: 100%;
+}
+/* Tira margens e paddings padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define fonte e fundo geral do site */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, 
+        #b5e3ef 0%, 
+        #1b68cf 25%, 
+        #000000 60%, 
+        #000000 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: white;
+}
+
+/* Centraliza o conteúdo e limita largura */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.logo img {
+    width: 200px;
+}
+.menu a.ativo {
+    color: #1e73ff;
+    border-bottom: 2px solid #1e73ff;
+    padding-bottom: 4px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Efeito ao passar o moue */
+.menu a:hover {
+    opacity: 0.7;
+}
+
+.hero {
+    padding: 30px 0;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* sobe tudo */
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.hero-text h3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+.hero-text {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 60px; /* controla espaço entre título, subtítulo e botão */
+}
+
+.button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #1e73ff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Efeito simples no botão */
+.button:hover {
+    opacity: 0.8;
+}
+
+.hero-image img {
+    
+    border-radius: 20px;
+
+}
+.resumo-box {
+    background-color: rgb(247, 242, 242);
+    color: #121c30;
+    padding: 30px;
+    max-width: 420px;
+    border-radius: 8px;
+    margin-left: 1px;
+}
+
+.body-text-container h4 {
+    font-size: 80px;
+    padding: 30px;
+    
+    
+}
+.footer {
+    background-color: #000000;
+    color: #ccc;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 60px;
+}
+
+
+.footer p {
+    margin-bottom: 8px;
+}
+
+.footer p:last-child {
+    margin-bottom: 0;
+}
+
+/* sobre*/
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-text-sobre {
+    flex: 1;
+    padding: 40px 0;
+
+}
+
+.hero-image-sobre img {
+    width: 290px;
+    border-radius: 20px;
+}
+.hero-text-sobre p {
+    font-size: large;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+
+}
+.class-sobre-valores {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sobre-nos {
+    padding: 60px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.sobre-missao {
+    max-width: 800px;
+    margin: 0 auto; /* centraliza */
+}
+.class-sobre-valores {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.class-sobre-valores li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.sobre-missao h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+.sobre-missao p {
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Pagina Serviços  */
+
+.card-servico {
+    width: 500px;
+    height: 300px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.container h2{
+    font-size: 30px;
+}
+
+
+.overlay {
+    color: white;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.botoes {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.carrossel button {
+    padding: 12px 20px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    transition: 0.3s;
+}
+
+.carrossel button:hover {
+    background-color: #1b68cf;
+}
+
+/* Botões */
+#btn-proximo {
+    background-color: #1b68cf;
+    color: white;
+}
+
+#btn-proximo:hover {
+    background-color: #1554a8;
+}
+
+#btn-anterior {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.4);
+}
+
+#btn-anterior:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* contato*/
+
+.contato-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contato-header h1 {
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.mono-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+.contato-card {
+    background-color: white;
+    color: #333;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    border-radius: 50px; /* Bordas bem arredondadas como na foto */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.form-row label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    min-width: 150px;
+    text-align: left;
+}
+
+.form-row input, 
+.form-row textarea {
+    flex: 1;
+    background-color: #a9d0f5; /* Cor azul clara da imagem */
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-row textarea {
+    height: 50px;
+    resize: none;
+}
+
+/* Ajuste do botão dentro do formulário */
+.contato-card .button {
+    background-color: #1b68cf;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

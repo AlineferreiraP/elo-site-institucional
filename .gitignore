@@ -1,0 +1,8 @@
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+contatos.json
+.vscode/
+.DS_Store
