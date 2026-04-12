@@ -7,7 +7,6 @@
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo.png') }}">
-    
 </head>
 
 <body>
@@ -38,7 +37,7 @@
                 <div class="hero-text">
                     <h1>Elo Soluções Digitais</h1>
                     <h3>Conectando ideias a resultados.</h3>
-                    <button class="button" type="button">
+                    <button class="button" type="button" id="servicos">
                         Conheça nossos Serviços
                     </button>
                 </div>
@@ -59,6 +58,9 @@
                 </div>
             </div>
         </section>
+    
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
 
     </main>
     
@@ -69,5 +71,6 @@
         <p>Desafio de Desenvolvimento Web </p>
     </div>
 </footer>
+
 </body>
 </html>

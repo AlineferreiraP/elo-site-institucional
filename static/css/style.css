@@ -8,7 +8,7 @@ html, body {
     box-sizing: border-box;
 }
 
-/* Define fonte e fundo geral do site */
+/* Fonte e fundo geral */
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(180deg, 
@@ -21,7 +21,7 @@ body {
     color: white;
 }
 
-/* Centraliza o conteúdo e limita largura */
+/* Centraliza o conteúdo e largura */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -54,7 +54,6 @@ body {
     color: white;
 }
 
-/* Efeito ao passar o moue */
 .menu a:hover {
     opacity: 0.7;
 }
@@ -95,7 +94,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Efeito simples no botão */
 .button:hover {
     opacity: 0.8;
 }
@@ -155,7 +153,7 @@ body {
 }
 
 .hero-image-sobre img {
-    width: 290px;
+    width: 280px;
     border-radius: 20px;
 }
 .hero-text-sobre p {
@@ -197,6 +195,7 @@ body {
 .sobre-missao h3 {
     margin-top: 40px;
     margin-bottom: 15px;
+    font-family: Arial, sans-serif;
     font-size: 20px;
     color: white;
 }
@@ -291,7 +290,7 @@ body {
     font-weight: normal;
 }
 
-.mono-text {
+.text-contato {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.1rem;
     margin-bottom: 50px;
@@ -308,23 +307,23 @@ body {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
 }
 
-.form-row {
+.formulario {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
 }
 
-.form-row label {
+.formulario label {
     font-weight: bold;
     font-size: 1.1rem;
     min-width: 150px;
     text-align: left;
 }
 
-.form-row input, 
-.form-row textarea {
+.formulario input, 
+.formulario textarea {
     flex: 1;
-    background-color: #a9d0f5; /* Cor azul clara da imagem */
+    background-color: #a9d0f5; 
     border: none;
     padding: 12px;
     font-size: 1rem;
@@ -332,12 +331,11 @@ body {
     outline: none;
 }
 
-.form-row textarea {
+.formulario textarea {
     height: 50px;
     resize: none;
 }
 
-/* Ajuste do botão dentro do formulário */
 .contato-card .button {
     background-color: #1b68cf;
     font-weight: bold;

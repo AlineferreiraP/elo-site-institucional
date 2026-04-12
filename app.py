@@ -25,12 +25,12 @@ def contato():
 
     if request.method == "POST":
 
-        # pega dados do formulário
+    
         nome = request.form.get("nome")
         email = request.form.get("email")
         mensagem = request.form.get("mensagem")
 
-        # cria dicionário
+        
         novo_contato = {
             "nome": nome,
             "email": email,
@@ -58,5 +58,7 @@ def contato():
 
     return render_template("contato.html")
 
+
 if __name__ == "__main__":
     app.run(debug=True) 
+
