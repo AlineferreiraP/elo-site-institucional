@@ -26,11 +26,13 @@ Pasta templates:
 Contém todas as páginas HTML do sistema:
 index.html, sobre.html, servicos.html e contato.html.
 
-Pasta static:
+Pasta static; 
 Responsável pelos arquivos estáticos do site:
 
 css -> arquivos de estilo
+
 js -> scripts JavaScript
+
 img -> imagens utilizadas no projeto
 
 
