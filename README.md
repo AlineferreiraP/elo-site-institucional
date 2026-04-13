@@ -15,8 +15,11 @@ Flask
 #### Estrutura do Projeto
 
 O projeto foi organizado de forma simples:
+
 app.py -> arquivo principal da aplicação Flask
+
 contatos.json -> onde os dados do formulário são armazenados
+
 README.md -> documentação
 
 Pasta templates:
