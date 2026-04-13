@@ -8,7 +8,7 @@ html, body {
     box-sizing: border-box;
 }
 
-/* Fonte e fundo geral */
+/* Fonte e fundo geral das pag.*/
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(180deg, 
@@ -21,7 +21,7 @@ body {
     color: white;
 }
 
-/* Centraliza o conteúdo e largura */
+/* Centraliza o conteúdo e limita a largura */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -257,7 +257,6 @@ body {
     background-color: #1b68cf;
 }
 
-/* Botões */
 #btn-proximo {
     background-color: #1b68cf;
     color: white;
@@ -285,9 +284,10 @@ body {
 }
 
 .contato-header h1 {
-    font-size: 3.2rem;
     margin-bottom: 20px;
-    font-weight: normal;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+
 }
 
 .text-contato {
@@ -341,4 +341,8 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+.botao-enviar-dados{
+    text-align: right;
+    margin-top: 20px;
 }
